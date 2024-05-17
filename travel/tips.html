@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт про подорожі</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Стилі для фону після списку */
+        .content-section::after {
+            content: "";
+            background-color: rgba(255, 255, 255, 0.5); /* Напівпрозорий білий фон */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1; /* Розміщуємо під змістом */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо на сайт про подорожі</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="destinations.html">Місця</a></li>
+            <li><a href="unusual.html">Нетипові місця</a></li>
+            <li><a href="tips.html">Поради</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="content-section">
+            <h2>Поради для подорожей</h2>
+            <p>Ось деякі корисні поради для ваших майбутніх подорожей:</p>
+            <ul>
+                <li>Завжди плануйте свою подорож заздалегідь.</li>
+                <li>Пакуйте легко і ефективно, не навантажуйте себе зайвими речами.</li>
+                <li>Досліджуйте місцеву культуру та традиції.</li>
+                <li>Спробуйте місцеву кухню і страви.</li>
+                <li>Завжди маєте з собою документи та копії важливих даних.</li>
+            </ul>
+            <p>З дотриманням цих порад ви зробите свої подорожі ще приємнішими та безпечнішими!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Мій сайт про подорожі</p>
+    </footer>
+</body>
+</html>

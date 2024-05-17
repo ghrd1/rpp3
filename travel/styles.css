@@ -1,0 +1,87 @@
+/* Загальні стилі */
+body {
+    background-image: url('index.jpg'); /* Замість 'background.jpg' вставте посилання на зображення фону */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.content-section {
+    background-color: rgba(255, 255, 255, 0.7); /* Напівпрозорий білий фон для контенту */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* Стилі для новин */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-item {
+    background-color: rgba(255, 255, 255, 0.7); /* Напівпрозорий білий фон для новин */
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.news-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.news-content h3 {
+    margin: 0;
+}
+
+.news-date {
+    font-style: italic;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
